@@ -5,7 +5,7 @@
   }
   
   header{
-    background-image: url(./hikkaduwa\ cover\ image.jpg);
+    background-image: url(./images/hikkaduwa\ cover\ image.jpg);
     height: 100vh;
     opacity: 0.9;
     background-size: cover;
@@ -69,7 +69,21 @@
     font-size: 75px;
     text-transform: uppercase;
   }
-  
+  /*button styles*/
+  .title a{
+    font-size: 20px;
+    width: 150px;
+    background-color: rgb(46, 101, 101);
+    color: white;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 4px;
+    border: 1px solid white;
+    border-radius: 10px;
+    cursor: pointer;
+  }
   /*title 2nd heading*/
 .intro{
   padding: 20px 0;
